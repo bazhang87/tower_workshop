@@ -1,7 +1,7 @@
 ---
 - name: setup control node timestamp
   hosts: ansible
-  gather_facts: no
+  gather_facts: yes
   become: yes
   tasks:
     - name: create time stamp for play
